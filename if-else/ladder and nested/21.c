@@ -1,0 +1,1 @@
+/*wap to enter length and width of three rectangle and print whose area is smallest.*/

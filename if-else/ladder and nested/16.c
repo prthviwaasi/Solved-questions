@@ -1,0 +1,1 @@
+/*Q.(37) Write a program to accept purchase amount from discount of 10% is given on purchase more than 10000. discount of 20% is given on purchase of more than 20000 for purchase & less than 10000 no discount is given. Enter purchase amount & print discount allocated in amount & net purchase amount? */
