@@ -4,59 +4,59 @@
 
 int main(){
     int m;
-    printf("Enter the month number");
+    printf("Enter the month number: ");
     scanf("%d",&m);
-    if  (m == 1 || m==jan)
+    if  (m == 1 )
     {
-        printf("January has 31 days");
+        printf("January has 31 days.\n");
     }
-    else if (m == 2 || m==feb)
+    else if (m == 2 )
     {
-        printf("February has 28 days");
+        printf("February has 28 days.\n");
     }
-    else if (m == 3 || m==mar)
+    else if (m == 3 )
     {
-        printf("March has 31 days");
+        printf("March has 31 days.\n");
     }
-    else if (m == 4 || m==apr)
+    else if (m == 4 )
     {
-        printf("April has 30 days");
+        printf("April has 30 days.\n");
     }
-    else if (m == 5 || m==may)
+    else if (m == 5 )
     {
-        printf("May has 31 days");
+        printf("May has 31 days.\n");
     }
-    else if (m == 6 || m==jun)
+    else if (m == 6 )
     {
-        printf("June has 30 days");
+        printf("June has 30 days.\n");
     }
-    else if (m == 7 || m==jul)
+    else if (m == 7 )
     {
-        printf("July has 31 days");
+        printf("July has 31 days.\n");
     }
-    else if (m == 8 || m==aug)
+    else if (m == 8 )
     {
-        printf("August has 31 days");
+        printf("August has 31 days.\n");
     }
-    else if (m == 9 || m==sep)
+    else if (m == 9 )
     {
-        printf("September has 30 days");
+        printf("September has 30 days.\n");
     }
-    else if (m == 10 || m==oct)
+    else if (m == 10 )
     {
-        printf("October has 31 days");
+        printf("October has 31 days.\n");
     }
-    else if (m == 11 || m==nov)
+    else if (m == 11 )
     {
-        printf("November has 30 days");
+        printf("November has 30 days.\n");
     }
-    else if (m == 12 || m==dec)
+    else if (m == 12 )
     {
-        printf("December has 31 days");
+        printf("December has 31 days.\n");
     }
     else
     {
-        printf("Wrong choice");
+        printf("Wrong input..\n");
     }
     return 0;
 }
