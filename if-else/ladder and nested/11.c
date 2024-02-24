@@ -6,7 +6,7 @@ int main()
     printf("Enter the month number: ");
     scanf("%d", &month);
 
-    if (month == 1)
+    if (month == 1)  /*used ladder if-else just for the question sake it's best for these type of question to use switch case*/ 
     {
         printf("\n---------------------------------------------------------\n");
         printf("\t\t\tjanuary\n");
