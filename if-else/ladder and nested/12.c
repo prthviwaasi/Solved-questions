@@ -30,7 +30,8 @@ int main()
 
     percentage = (float)total / 5.0; // calculate total percentage 
 
-    if (percentage >= 60)
+    // can use while loop to make sure that marks entered is not over 100
+    if (percentage >= 60)    
         printf("First Division\n");
     else if (percentage >= 48)
         printf("Second Division\n");
