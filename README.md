@@ -1,4 +1,3 @@
-hello world, 
-my name is raj and i am an aspiring developer, 
-learning to code and,
-this repositary is a gathering of all the questions or problems that i'll be solving. 
+hi everyone, 
+I'm Raj, and my goal is to become a developer. I'm now studying C programming, and this repository has all of the questions I've encountered along with my method for answering them. 
+
