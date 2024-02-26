@@ -1,0 +1,1 @@
+// Write a program to enter a number and print its table with their sum.
