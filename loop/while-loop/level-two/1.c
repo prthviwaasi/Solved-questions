@@ -1,6 +1,7 @@
+// write a program to enter any number check that the number is perfect or not.
 #include <stdio.h>
 int main(){
-    int a, b;
+    int ;
 
 return 0;
 }
