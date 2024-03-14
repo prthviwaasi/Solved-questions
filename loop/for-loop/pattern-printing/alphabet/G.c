@@ -1,18 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-   int row, col, space;
-    for(row=1;row<=5;row++){
-        for(col=1;col<=5;col++){
-        if(row==1 || row==5 || (col==5&&row>2) || col==1 || (row==3&&col>5)){
-             printf("* ");
+    int i, j;
+    for (i = 1; i <= 5; i++)
+    {
+        for (j = 1; j <= 5; j++)
+        {
+            if (i == 1 || i == 5 || (j == 5 && i > 2) || j == 1 || (i == 3 && j > 5))
+            {
+                printf("* ");
             }
-        else{
-             printf("  ");
+            else
+            {
+                printf("  ");
             }
         }
-     printf("\n");   
+        printf("\n");
     }
     return 0;
 }

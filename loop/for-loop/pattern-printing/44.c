@@ -1,5 +1,5 @@
-#include <stdio.h>
-// Pattern44
+#include <stdio.h>  // Pattern44
+
 int main()
 {
   int i, j, k = 65;
@@ -12,9 +12,10 @@ int main()
       {
         printf("%c ", k++);
       }
-      else
+      else 
       {
-        printf("  ");
+        k = 65;
+        printf("%c ", k++);
       }
     }
     printf("\n");
